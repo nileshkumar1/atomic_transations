@@ -4,5 +4,5 @@ from bank import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.process_payment, name='payment')
+    path('', views.process_payment),
 ]
